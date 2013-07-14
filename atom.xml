@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-07-14T17:50:41+08:00</updated>
+  <updated>2013-07-14T17:51:45+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,13 +19,10 @@
     <updated>2013-07-14T17:35:00+08:00</updated>
     <id>http://ldehai.github.io/blog/2013/07/14/octopress-test</id>
     <content type="html"><![CDATA[<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>```
-</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo make me a sandwich</span></code></pre></td></tr></table></div></figure>
 
 
-<p>$ sudo make me a sandwich
-&#8220;`
-andy.liu</p>
+<p>andy.liu</p>
 ]]></content>
   </entry>
   
