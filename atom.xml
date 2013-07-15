@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-07-15T09:08:45+08:00</updated>
+  <updated>2013-07-15T09:15:05+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -20,30 +20,21 @@
     <id>http://ldehai.github.io/blog/2013/07/15/free-design</id>
     <content type="html"><![CDATA[<p><meta name="apple-itunes-app" content="app-id=640885172, affiliate-data=myAffiliateData, app-argument=myURL"></p>
 
-<p>我的一个应用<a href="https://itunes.apple.com/us/app/tripcost-split-bills-friends/id633501469?ls=1&amp;mt=8">Tripcost</a><img src="http://a4.mzstatic.com/us/r30/Purple/v4/d8/bb/70/d8bb7087-b65c-718a-3fd5-65137f63f87e/icon170x170.png" alt="tripcosticon" />,截图如下：</p>
+<p>我的一个应用<a href="https://itunes.apple.com/us/app/tripcost-split-bills-friends/id633501469?ls=1&amp;mt=8">Tripcost</a>是用来在旅行时记录账单的，支持多人分账，使用图表的统计方式，简单明了,截图如下：</p>
 
-<p><img src="http://a2.mzstatic.com/us/r1000/080/Purple/v4/e5/bc/51/e5bc51d6-9f85-f7f0-bcb8-7f63bfc549ee/mzl.qqzqvxqg.320x480-75.jpg" alt="Tripcostcapture1" /><img src="http://a5.mzstatic.com/us/r1000/110/Purple/v4/c6/98/53/c69853ac-6822-6f42-42c5-32be586bbbcb/mzl.qwkkzhni.320x480-75.jpg" alt="capture2" /><img src="http://a2.mzstatic.com/us/r1000/062/Purple2/v4/41/e8/9e/41e89e60-ddff-3b35-ca32-cadb57c61045/mzl.pazlgjai.320x480-75.jpg" alt="capture3" /></p>
+<p><img src="http://a4.mzstatic.com/us/r30/Purple/v4/d8/bb/70/d8bb7087-b65c-718a-3fd5-65137f63f87e/icon170x170.png" alt="" /></p>
 
-<p>是用来在旅行时记录账单的，支持多人分账，使用图表的统计方式，简单明了。今天收到Andrew的邮件：</p>
+<p><img src="http://a2.mzstatic.com/us/r1000/080/Purple/v4/e5/bc/51/e5bc51d6-9f85-f7f0-bcb8-7f63bfc549ee/mzl.qqzqvxqg.320x480-75.jpg" alt="" />
+<img src="http://a5.mzstatic.com/us/r1000/110/Purple/v4/c6/98/53/c69853ac-6822-6f42-42c5-32be586bbbcb/mzl.qwkkzhni.320x480-75.jpg" alt="" />
+<img src="http://a2.mzstatic.com/us/r1000/062/Purple2/v4/41/e8/9e/41e89e60-ddff-3b35-ca32-cadb57c61045/mzl.pazlgjai.320x480-75.jpg" alt="" /></p>
+
+<p>今天收到Andrew的邮件：</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>I'm a graphic designer and I really like your app. Would you be interested in letting me update the icon for you? I'll do it for free</span></code></pre></td></tr></table></div></figure>
 
 
 <p>真的挺喜欢这些人，愿意为了自己喜欢的东西付出，不要回报。对我来说也是一种莫大的鼓舞。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[octopress test]]></title>
-    <link href="http://ldehai.github.io/blog/2013/07/14/octopress-test/"/>
-    <updated>2013-07-14T17:35:00+08:00</updated>
-    <id>http://ldehai.github.io/blog/2013/07/14/octopress-test</id>
-    <content type="html"><![CDATA[<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo make me a sandwich</span></code></pre></td></tr></table></div></figure>
-
-
-<p>andy.liu</p>
 ]]></content>
   </entry>
   
