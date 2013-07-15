@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-07-15T09:15:05+08:00</updated>
+  <updated>2013-07-15T09:16:37+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -31,7 +31,15 @@
 <p>今天收到Andrew的邮件：</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>I'm a graphic designer and I really like your app. Would you be interested in letting me update the icon for you? I'll do it for free</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>I'm a graphic designer and I really like your app. 
+</span><span class='line'>
+</span><span class='line'>Would you be interested in letting me update the icon for you?
+</span><span class='line'>
+</span><span class='line'>I'll do it for free</span></code></pre></td></tr></table></div></figure>
 
 
 <p>真的挺喜欢这些人，愿意为了自己喜欢的东西付出，不要回报。对我来说也是一种莫大的鼓舞。</p>
