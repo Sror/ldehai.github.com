@@ -1,0 +1,14 @@
+<loader version="1.0">
+   <application id="com.netease.rpmms">
+      <name>NetEase_pmail</name>
+      <description>NetEase_pmail</description>
+      <version>1.4.0</version>
+      <vendor>NetEase</vendor>
+      <copyright>Copyright (c) 2011 NetEase</copyright>
+      <fileset Java="1.0">
+         <files>
+NetEase_pmail.cod
+</files>
+      </fileset>
+   </application>
+</loader>

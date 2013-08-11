@@ -1,0 +1,50 @@
+RIM-COD-SHA1-4: 56 6c fc 3f 59 cb fb a2 ad 26 1d 68 dc e1 20 e2 1b 09 21 2a
+RIM-COD-SHA1-3: 2f 68 60 75 ba 07 f8 03 af 9e f9 ab e3 00 bd 48 6f a4 8b 76
+RIM-COD-SHA1-2: 41 1f ea 2b c0 2a 87 f2 c1 77 16 01 7f 2e 21 0e 12 af 8e f4
+RIM-COD-URL-11: NetEase_pmail-11.cod
+RIM-COD-SHA1-1: fc 45 82 17 b9 85 3e cb ef d2 30 5f e4 58 0d a7 2e 1e 51 64
+RIM-COD-URL-10: NetEase_pmail-10.cod
+RIM-MIDlet-Flags-1: 224
+MIDlet-Jar-Size: 1137253
+MIDlet-Name: NetEase_pmail
+MIDlet-Jar-URL: NetEase_pmail.jar
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Description: 手机邮
+RIM-COD-URL-9: NetEase_pmail-9.cod
+RIM-COD-URL-8: NetEase_pmail-8.cod
+RIM-COD-URL-7: NetEase_pmail-7.cod
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_invoke,net_rim_pdap,net_rim_bb_framework_api,net_rim_bbapi_browser
+RIM-COD-URL-6: NetEase_pmail-6.cod
+RIM-COD-URL-5: NetEase_pmail-5.cod
+RIM-COD-URL-4: NetEase_pmail-4.cod
+RIM-COD-URL-3: NetEase_pmail-3.cod
+RIM-COD-URL-2: NetEase_pmail-2.cod
+RIM-COD-URL-1: NetEase_pmail-1.cod
+RIM-COD-Size-9: 54840
+RIM-COD-Size-8: 54316
+RIM-COD-Size-7: 43616
+RIM-COD-Size-6: 63184
+RIM-COD-Size-5: 72828
+RIM-COD-Size-4: 71464
+RIM-COD-Size-3: 75328
+RIM-COD-Module-Name: NetEase_pmail
+RIM-COD-Size-2: 110120
+RIM-COD-Size-1: 74816
+RIM-COD-SHA1: d6 95 ad 65 a4 44 a0 5e 40 57 0a 71 08 fa cc 43 59 45 23 e5
+RIM-COD-Size: 105028
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-Size-11: 49968
+RIM-COD-Size-10: 49968
+MIDlet-Vendor: NetEase
+MIDlet-1: 手机邮,../../../res/icon.png,com.netease.rpmms.RPMMSMIDlet
+RIM-COD-URL: NetEase_pmail.cod
+RIM-COD-SHA1-11: 65 69 18 2e 41 1b dd 94 be 87 24 65 86 3d d1 51 92 df f8 f6
+RIM-COD-SHA1-10: 21 42 fb ea 6c 7c c5 dd 72 02 f9 bf 81 51 ed b2 e9 e3 38 e7
+Manifest-Version: 1.0
+MIDlet-Version: 1.4.0
+RIM-COD-SHA1-9: 41 0b cf 5d 4a 1f 14 f6 4c 9f de d1 27 d9 86 1c 6e d0 af 3f
+RIM-COD-SHA1-8: 63 6b 72 aa c8 31 ac 8e 82 1e 96 0d 5c 4b 82 b6 44 06 2b 0c
+RIM-COD-SHA1-7: 0d 46 01 ed 8a 6f 2a d4 1e 66 31 24 91 68 ef e7 5f 22 2e ae
+RIM-COD-Creation-Time: 1298882247
+RIM-COD-SHA1-6: 77 c3 d8 c0 9c a2 a6 1e d3 6d a1 53 98 de ad e8 20 0b e6 d4
+RIM-COD-SHA1-5: 6d f2 42 fb c0 4f 31 98 96 54 53 5e 3d 9d a9 6c 8d 42 30 ac
