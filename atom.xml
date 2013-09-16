@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-09-16T06:02:59+08:00</updated>
+  <updated>2013-09-16T13:40:46+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[how to migrate to ios7]]></title>
+    <link href="http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7/"/>
+    <updated>2013-09-16T13:35:00+08:00</updated>
+    <id>http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7</id>
+    <content type="html"><![CDATA[<p>The new version iOS7 changed the statusbar, now default, the statusbar overlap UIViewController, so if you have items on top of view, it&rsquo;s will display under statusbar.</p>
+
+<p>The simplest solution is add &ldquo;<code>View controller-based status bar appearance</code>&rdquo; to plist, and set it&rsquo;s value to &ldquo;<code>NO</code>&rdquo;.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How can you maximize your happiness in life]]></title>
