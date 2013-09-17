@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-09-17T22:27:38+08:00</updated>
+  <updated>2013-09-17T22:29:44+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -21,16 +21,6 @@
     <content type="html"><![CDATA[<p>The new version iOS7 changed the statusbar, now default, the statusbar overlap UIViewController, so if you have items on top of view, it&rsquo;s will display under statusbar.</p>
 
 <p>The simplest solution is add &ldquo;<code>View controller-based status bar appearance</code>&rdquo; to plist, and set it&rsquo;s value to &ldquo;<code>NO</code>&rdquo;.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How can you maximize your happiness in life]]></title>
-    <link href="http://ldehai.github.io/blog/2013/07/19/how-can-you-maximize-your-happiness-in-life/"/>
-    <updated>2013-07-19T09:48:00+08:00</updated>
-    <id>http://ldehai.github.io/blog/2013/07/19/how-can-you-maximize-your-happiness-in-life</id>
-    <content type="html"><![CDATA[<p><a href="http://www.quora.com/How-can-you-maximize-your-happiness-in-life">http://www.quora.com/How-can-you-maximize-your-happiness-in-life</a>
-<img src="http://www.ldehai.com/images/happy.jpg" alt="" /></p>
 ]]></content>
   </entry>
   
