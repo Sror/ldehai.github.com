@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-09-21T21:06:03+08:00</updated>
+  <updated>2013-09-22T10:43:19+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用pyinstaller打包matplotlib、scipy、wxpython]]></title>
+    <link href="http://ldehai.github.io/blog/2013/09/22/pyinstaller-matplotlib-scipy/"/>
+    <updated>2013-09-22T10:08:00+08:00</updated>
+    <id>http://ldehai.github.io/blog/2013/09/22/pyinstaller-matplotlib-scipy</id>
+    <content type="html"><![CDATA[<p>用python帮朋友写了个科学计算的程序，用到了matplotlib和scipy，以及wxpython。代码写完，发现不能直接拿给朋友用，windows系统默认是没有运行环境的，得装python,matplotlib,scipy以及其他的运行库。这对于程序小白来说实在强人所难。好在有pyinstaller，可以用它打包成一个exe文件，所有的库都在一起了。妈妈再也不用担心没有环境跑程序了。</p>
+
+<p>到pyinstaller官网<a href="http://www.pyinstaller.org/">http://www.pyinstaller.org/</a>下载安装包.详细安装说明见官方文档<a href="http://pythonhosted.org/PyInstaller/#installing-in-windows">http://pythonhosted.org/PyInstaller/#installing-in-windows</a>。
+这里简要说明一下步骤：
+直接下载压缩包，现在的版本是2.1.解压后打开命令行，执行如下命令：</p>
+
+<pre><code>c:\&gt;python setup.py install
+</code></pre>
+
+<p>可以用如下命令检查是不是已经装好了</p>
+
+<pre><code>c:\&gt;pyintaller --version
+</code></pre>
+
+<p>ok，pyinstaller 装好了，开始打包</p>
+
+<pre><code>c:\&gt;c:/python27/python.exe c:/pyinstaller/pyinstaller.py --noconfirm --noconsole --onefile --icon=Icon.ico myapp.py
+</code></pre>
+
+<p>解释一下几个参数：</p>
+
+<p>noconfirm:在打包过程中不需要人工确认。</p>
+
+<p>noconsole:打包后的程序运行时没有命令行窗口(在测试打包的过程中，可以把这个参数去掉，这样运行的时候可以从命令行查看出错信息，所有错误排除后再加上)。</p>
+
+<p>onefile:顾名思义就是打包成一个文件，如果不加就是一个exe加一个文件夹，文件夹里存放需要的各种库文件。</p>
+
+<p>icon:指定打包后的exe文件的图标（运行时窗口的图标是在程序里设定的）</p>
+
+<p>由于pyinstaller2.1正式版还不支持scipy库，直接运行会报找不到scipy module。而developer版本已经支持了，所以去下载开发版重新安装。pyinstaller的代码在github上<a href="https://github.com/pyinstaller/pyinstaller">https://github.com/pyinstaller/pyinstaller</a>,选择develop分支下载。
+pyinstaller对第三方库的支持情况见这里：<a href="http://www.pyinstaller.org/wiki/SupportedPackages">http://www.pyinstaller.org/wiki/SupportedPackages</a>。</p>
+
+<p>安装步骤同上，不再赘述。安装完运行打包脚本会发现还有错误</p>
+
+<pre><code>ImportError: No module named scipy.sparse.csgraph._validation
+</code></pre>
+
+<p>这是因为pyinstaller没能自动把_validation库加进来，我们就在代码里手动加上吧。</p>
+
+<pre><code>from scipy.sparse.csgraph import _validation
+</code></pre>
+
+<p>再次运行，应该没问题了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[how to migrate to iOS7]]></title>
