@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ios7 | Andy Design]]></title>
+  <link href="http://ldehai.github.io/blog/categories/ios7/atom.xml" rel="self"/>
+  <link href="http://ldehai.github.io/"/>
+  <updated>2013-09-23T08:19:53+08:00</updated>
+  <id>http://ldehai.github.io/</id>
+  <author>
+    <name><![CDATA[Andy.Liu]]></name>
+    <email><![CDATA[ldehai@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[how to migrate to iOS7]]></title>
+    <link href="http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7/"/>
+    <updated>2013-09-16T13:35:00+08:00</updated>
+    <id>http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7</id>
+    <content type="html"><![CDATA[<p>The new version iOS7 changed the statusbar, now default, the statusbar overlap UIViewController, so if you have items on top of view, it&rsquo;s will display under statusbar.</p>
+
+<p>The simplest solution is <!-- more -->add &ldquo;<code>View controller-based status bar appearance</code>&rdquo; to plist, and set it&rsquo;s value to &ldquo;<code>NO</code>&rdquo;.</p>
+]]></content>
+  </entry>
+  
+</feed>

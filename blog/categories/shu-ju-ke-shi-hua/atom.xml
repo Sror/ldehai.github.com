@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Andy Design]]></title>
-  <link href="http://ldehai.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 数据可视化 | Andy Design]]></title>
+  <link href="http://ldehai.github.io/blog/categories/shu-ju-ke-shi-hua/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
   <updated>2013-09-23T08:19:53+08:00</updated>
   <id>http://ldehai.github.io/</id>
@@ -61,48 +61,6 @@ pyinstaller对第三方库的支持情况见这里：<a href="http://www.pyinsta
 </code></pre>
 
 <p>再次运行，应该没问题了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[how to migrate to iOS7]]></title>
-    <link href="http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7/"/>
-    <updated>2013-09-16T13:35:00+08:00</updated>
-    <id>http://ldehai.github.io/blog/2013/09/16/howto-migrate-to-ios7</id>
-    <content type="html"><![CDATA[<p>The new version iOS7 changed the statusbar, now default, the statusbar overlap UIViewController, so if you have items on top of view, it&rsquo;s will display under statusbar.</p>
-
-<p>The simplest solution is <!-- more -->add &ldquo;<code>View controller-based status bar appearance</code>&rdquo; to plist, and set it&rsquo;s value to &ldquo;<code>NO</code>&rdquo;.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[免费设计图标]]></title>
-    <link href="http://ldehai.github.io/blog/2013/07/15/free-design/"/>
-    <updated>2013-07-15T08:50:00+08:00</updated>
-    <id>http://ldehai.github.io/blog/2013/07/15/free-design</id>
-    <content type="html"><![CDATA[<p><meta name="apple-itunes-app" content="app-id=633501469, affiliate-data=myAffiliateData, app-argument=myURL"></p>
-
-<p><a href="https://itunes.apple.com/us/app/tripcost-split-bills-friends/id633501469?ls=1&amp;mt=8">Tripcost</a>是用来在旅行时记录账单的，支持多人分账，使用图表的统计方式，简单明了,截图如下：</p>
-
-<p><img src="http://www.ldehai.com/images/tripcost.png" alt="" /><!-- more --></p>
-
-<p><img src="http://a2.mzstatic.com/us/r1000/080/Purple/v4/e5/bc/51/e5bc51d6-9f85-f7f0-bcb8-7f63bfc549ee/mzl.qqzqvxqg.320x480-75.jpg" alt="" />
-<img src="http://a5.mzstatic.com/us/r1000/110/Purple/v4/c6/98/53/c69853ac-6822-6f42-42c5-32be586bbbcb/mzl.qwkkzhni.320x480-75.jpg" alt="" />
-<img src="http://a2.mzstatic.com/us/r1000/062/Purple2/v4/41/e8/9e/41e89e60-ddff-3b35-ca32-cadb57c61045/mzl.pazlgjai.320x480-75.jpg" alt="" /></p>
-
-<p>今天收到Andrew的邮件：</p>
-
-<blockquote><p>I&rsquo;m a graphic designer and I really like your app. Would you be interested in letting me update the icon for you? I&rsquo;ll do it for free.</p></blockquote>
-
-<p>真的挺喜欢这些人，愿意为了自己喜欢的东西付出，不要回报。对我来说也是一种莫大的鼓舞。</p>
-
-<p>最新的设计图，还可以吧，比原来的提升不少。</p>
-
-<p><img src="http://www.ldehai.com/images/tripcost_redesign.png" alt="" /></p>
-
-<p>loading page</p>
-
-<p><img src="http://www.ldehai.com/images/tripcost_loadingpage.png" alt="" /></p>
 ]]></content>
   </entry>
   
