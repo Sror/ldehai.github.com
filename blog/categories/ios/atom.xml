@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ios | Andy Design]]></title>
   <link href="http://ldehai.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-09-25T11:55:59+08:00</updated>
+  <updated>2013-09-30T21:09:19+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac与iOS开发模式的差异]]></title>
+    <link href="http://ldehai.github.io/blog/2013/09/25/mac-vs-ios-develop-mode/"/>
+    <updated>2013-09-25T14:58:00+08:00</updated>
+    <id>http://ldehai.github.io/blog/2013/09/25/mac-vs-ios-develop-mode</id>
+    <content type="html"><![CDATA[<p>从iOS转到Mac开发的朋友一开始可能会不适应。</p>
+
+<p>iOS屏幕小，每次只能显示一个窗口，所以在apple的界面规范里，iphone应用是不推荐使用弹出窗口的(Popover)。直到ipad推出才有个popover类可以用。</p>
+
+<p>Mac天生的是桌面端，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[how to migrate to iOS7]]></title>
