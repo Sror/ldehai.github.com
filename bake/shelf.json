@@ -1,10 +1,10 @@
 [
   {
-    "name": "baketest",
-    "title": "baketest",
-    "info": "The original story by Sir Arthur Conan Doyle, published the first time in 1887.",
+    "name": "myfirstpicturebook",
+    "title": "My first picture book",
+    "info": "With Thirty-six Pages of Pictures Printed in Colours by Kronheim",
     "date": "1887-11-24 09:00:00",
     "cover": "http://ldehai.com/bake/cover-image.png",
-    "url": "http://ldehai.com/bake/book.hpub"
+    "url": "http://ldehai.com/bake/book2.hpub"
   }
 ]
