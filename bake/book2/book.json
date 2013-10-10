@@ -1,0 +1,41 @@
+{
+    "hpub": 1,
+    "title": "Newsstand sample",
+    "author": ["Author name"],
+    "creator": ["A, B, C"],
+    "date": "2011-06-15",
+    "url": "book://bakerframework.com/books/arthurconandoyle-thestudyinscarlet",
+
+    "orientation": "both",
+    "zoomable": false,
+
+    "-baker-background": "#000000",
+    "-baker-vertical-bounce": false,
+    "-baker-media-autoplay": true,
+    "-baker-background-image-portrait": "gfx/background-portrait.png",
+    "-baker-background-image-landscape": "gfx/background-landscape.png",
+    "-baker-page-numbers-color": "#000000",
+
+    "contents": [
+        "index.html",
+        "002.html",
+        "003.html",
+        "004.html",
+        "005.html",
+        "006.html",
+        "007.html",
+        "008.html",
+        "009.html",
+        "010.html",
+        "011.html",
+        "012.html",
+        "013.html",
+        "014.html",
+        "015.html",
+        "016.html",
+        "017.html",
+        "018.html",
+        "019.html",
+        "020.html"    
+    ]
+}
