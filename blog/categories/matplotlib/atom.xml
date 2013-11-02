@@ -4,7 +4,7 @@
   <title><![CDATA[Category: matplotlib | Andy Design]]></title>
   <link href="http://ldehai.github.io/blog/categories/matplotlib/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-11-02T22:23:31+08:00</updated>
+  <updated>2013-11-02T22:48:13+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -22,7 +22,7 @@
 
 <p>问题的原因是pyinstaller打包时pyconfig.h多打了一次，所以会报已经存在了。这个解决方案就是把多余的pyconfig.h去掉。</p>
 
-<p>下面开始详细说明如何修改：
+<p>下面开始详细说明如何修改：<!-- more -->
 上一篇讲到使用如下命令打包exe：</p>
 
 <pre><code>c:\&gt;c:/python27/python.exe c:/pyinstaller/pyinstaller.py --noconfirm --noconsole --onefile --icon=Icon.ico myapp.py
