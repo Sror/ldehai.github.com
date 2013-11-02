@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-11-02T22:20:50+08:00</updated>
+  <updated>2013-11-02T22:22:46+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -80,7 +80,7 @@ exe = EXE(pyz,
 
 <p>为了使用修改后的spec文件来打包，需要使用新的命令：</p>
 
-<pre><code>    c:\&gt;c:/python27/python.exe c:/pyinstaller/pyinstaller.py myapp.spec
+<pre><code>c:\&gt;c:/python27/python.exe c:/pyinstaller/pyinstaller.py myapp.spec
 </code></pre>
 
 <p>试试吧，warning没了吧</p>
