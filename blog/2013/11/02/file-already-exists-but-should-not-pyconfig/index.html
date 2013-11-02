@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>file-already-exists-but-should-not-pyconfig - Andy Design</title>
+	<title>file already exists but should not pyconfig - Andy Design</title>
 	<meta name="author" content="Andy.Liu">
 
 	
-	<meta name="description" content="File-already-exists-but-should-not-pyconfig 接上一篇，用python项目用到了scipy计算模块，之后用pyinstaller打包后，每次运行就会报警告file already exists but should not:&hellip;&hellip &hellip;">
+	<meta name="description" content="File Already Exists but Should Not Pyconfig 接上一篇，用python项目用到了scipy计算模块，之后用pyinstaller打包后，每次运行就会报警告file already exists but should not:&hellip;&hellip &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -106,7 +106,7 @@
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<h1 class="title" itemprop="name">File-already-exists-but-should-not-pyconfig</h1>
+	<h1 class="title" itemprop="name">File Already Exists but Should Not Pyconfig</h1>
 	<div class="entry-content" itemprop="articleBody"><p>接上一篇，用python项目用到了scipy计算模块，之后用pyinstaller打包后，每次运行就会报警告file already exists but should not:&hellip;&hellip;./pyconfig.h。虽然不影响运行，还是觉得有必要解决这个问题，在搜索到这个帖子后，问题解决<a href="http://stackoverflow.com/questions/19055089/pyinstaller-onefile-warning-pyconfig-h-when-importing-scipy-or-scipy-signal">http://stackoverflow.com/questions/19055089/pyinstaller-onefile-warning-pyconfig-h-when-importing-scipy-or-scipy-signal</a>.</p>
 
 <p>问题的原因是pyinstaller打包时pyconfig.h多打了一次，所以会报已经存在了。这个解决方案就是把多余的pyconfig.h去掉。</p>
