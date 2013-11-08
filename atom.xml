@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-11-08T13:11:35+08:00</updated>
+  <updated>2013-11-08T13:15:25+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -42,7 +42,7 @@ index.html          //预览时的首页
 
 <p>Framer可以说是由三部分组成：</p>
 
-<h4>1.图片导出工具</h4>
+<h5>图片导出工具</h5>
 
 <p>这里从photoshop导出设计图。实际上是使用了Adobe ExtendScript脚本。Adobe ExtendScript脚本语言可以操纵photoshop执行一些自动化操作。Mac下作者用Framer.app包装了脚本代码，windows下则直接提供了脚本(<a href="http://www.framerjs.com/static/downloads/FramerPS.jsx.zip">http://www.framerjs.com/static/downloads/FramerPS.jsx.zip</a>)</p>
 
@@ -50,11 +50,11 @@ index.html          //预览时的首页
 
 <p>在原型设计的过程中，可能会需要多次导出图片，而导出工具不会覆盖app.js文件，所以不用担心你写的代码会被覆盖。它只会在没有文件的情况下才自动生成。</p>
 
-<h4>2.JS类库</h4>
+<h5>JS类库</h5>
 
 <p>这里提供了View(视图),animation(动态特效),event(事件绑定)等类，可供使用者调用。详见最后一部分介绍，或直接至官网查看。</p>
 
-<h4>3.app.js交互的天堂</h4>
+<h5>app.js</h5>
 
 <p>Framer默认生成app.js文件。在使用Framer的过程中，除了用Photoshop设计原型图之外，这里也是花时间最多的地方。前面准备的素材就看你怎么组织了。视图的创建、切换、动态特效、手势、事件绑定，都可以在这个文件里完成。</p>
 
