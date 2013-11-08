@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Photoshop | Andy Design]]></title>
   <link href="http://ldehai.github.io/blog/categories/photoshop/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-11-08T12:58:32+08:00</updated>
+  <updated>2013-11-08T12:59:52+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Framerjs简介]]></title>
-    <link href="http://ldehai.github.io/blog/2013/11/08/how-framejs-works/"/>
+    <title type="html"><![CDATA[Framer简介]]></title>
+    <link href="http://ldehai.github.io/blog/2013/11/08/how-framer-works/"/>
     <updated>2013-11-08T10:50:00+08:00</updated>
-    <id>http://ldehai.github.io/blog/2013/11/08/how-framejs-works</id>
+    <id>http://ldehai.github.io/blog/2013/11/08/how-framer-works</id>
     <content type="html"><![CDATA[<p>Framer是一个基于JavaScript的原型工具，专为设计师打造。它可以让你只专注于设计与交互。项目地址<a href="http://www.framerjs.com">http://www.framerjs.com</a>，使用Framer包括4个步骤：</p>
 
 <ol>
