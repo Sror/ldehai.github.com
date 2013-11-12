@@ -4,7 +4,7 @@
   <title><![CDATA[Andy Design]]></title>
   <link href="http://ldehai.github.io/atom.xml" rel="self"/>
   <link href="http://ldehai.github.io/"/>
-  <updated>2013-11-12T08:56:06+08:00</updated>
+  <updated>2013-11-12T09:12:31+08:00</updated>
   <id>http://ldehai.github.io/</id>
   <author>
     <name><![CDATA[Andy.Liu]]></name>
@@ -20,7 +20,7 @@
     <id>http://ldehai.github.io/blog/2013/11/12/embedded-image-with-base64</id>
     <content type="html"><![CDATA[<blockquote><p>一天冷似一天，阴冷的空气无声无息的悬在城市的上空，纷飞的落叶也在述说着岁月更替的故事。</p></blockquote>
 
-<p>在使用wxPython写程序时，如果用到了图标，而打包的时候又不想暴露给用户，就要使用base64对图片进行编码，然后把生成的字符串直接写到程序里就好了。</p>
+<p>在使用wxPython写程序时，如果用到了图标，而打包的时候又不想暴露给用户，就要使用base64对图片进行编码，然后把生成的字符串直接写到程序里就好了。<!-- read more --></p>
 
 <pre><code># -*- coding:utf-8 -*-
 #导入需要的库
@@ -34,7 +34,7 @@ imgBase64 = PyEmbeddedImage("iVBORw0KGgoAAAANSUhEUgAAWCAYAAAAinad/.......+KElFTk
 self.ESImage = imgBase64.GetImage()#.Scale(22,24)
 
 #把上一步生成的图片加到控件上去
-self.imageCtrl = wx.StaticBitmap(self.RightPanel,wx.ID_ANY,wx.BitmapFromImage(self.ESImage))
+self.imageCtrl =    wx.StaticBitmap(self.RightPanel,wx.ID_ANY,wx.BitmapFromImage(self.ESImage))
 </code></pre>
 
 <p>那么怎么把一个图片用Base64编码呢，请看：</p>
