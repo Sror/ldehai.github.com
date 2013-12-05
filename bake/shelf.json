@@ -4,8 +4,8 @@
     "title": "My first picture book",
     "info": "With Thirty-six Pages of Pictures Printed in Colours by Kronheim",
     "date": "1887-11-24 09:00:00",
-    "cover": "http://localhost:9081/books/cover-image.png",
-    "url": "http://localhost:9081/books/bookdemo.hpub",
+    "cover": "http://ldehai.com/bake/cover-image.png",
+    "url": "http://ldehai.com/bake/bookdemo.hpub",
     "tag": "innovate"
   },
   {
@@ -13,8 +13,8 @@
     "title": "Newsstand sample",
     "info": "Newsstand sample",
     "date": "1887-11-24 09:00:00",
-    "cover": "http://localhost:9081/books/cover-image2.png",
-    "url": "http://localhost:9081/books/bookdemo2.hpub",
+    "cover": "http://ldehai.com/bake/cover-image2.png",
+    "url": "http://ldehai.com/bake/bookdemo2.hpub",
     "tag": "cookbook"
   },
   {
@@ -22,8 +22,8 @@
     "title": "Innovate Fall 2013",
     "info": "TOS - a Patient's Story; Advanced Treatment for Stroke; Driving and Aging: Plan Ahead; New Radiation Therapy Technology",
     "date": "2013-11-01 10:10:10",
-    "cover": "http://localhost:9081/books/Innovate-Fall-2013.png",
-    "url": "http://localhost:9081/books/Innovate-Fall-2013.hpub",
+    "cover": "http://ldehai.com/bake/Innovate-Fall-2013.png",
+    "url": "http://ldehai.com/bake/Innovate-Fall-2013.hpub",
     "tag": "cookbook"
   }
 ]
