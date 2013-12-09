@@ -25,5 +25,14 @@
     "cover": "http://ldehai.com/bake/Innovate-Fall-2013.png",
     "url": "http://ldehai.com/bake/Innovate-Fall-2013.hpub",
     "tag": "cookbook"
+  },
+  {
+    "name": "test",
+    "title": "test book",
+    "info": "sample test book",
+    "date": "1887-11-24 09:00:00",
+    "cover": "http://ldehai.com/bake/test_cover.png",
+    "url": "http://ldehai.com/bake/test.hpub",
+    "tag": "innovate"
   }
 ]
