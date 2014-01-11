@@ -7,71 +7,49 @@
 	<meta name="author" content="Andy.Liu">
 
 	
-	<meta name="description" content="iOS APP Database Version Control 我喜欢在APP里用SQLite数据库，不过有个问题一直困扰着我，当我要加新功能，而原来的表结构已经不能满足要求时，需要修改表，或者新增表。那么老版本升级到新版本时就需要升级数据库，之前我都是判断新表有没有存在，不存在则创建。 &hellip;">
+	<meta name="description" content="我喜欢在APP里用SQLite数据库，不过有个问题一直困扰着我，当我要加新功能，而原来的表结构已经不能满足要求时，需要修改表，或者新增表。那么老版本升级到新版本时就需要升级数据库，之前我都是判断新表有没有存在，不存在则创建。这样很容易搞乱掉，如果涉及到多个表，判断起来逻辑不清晰，把自己都搞晕了。 &hellip;">
 	
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="/atom.xml" rel="alternate" title="Andy Design" type="application/atom+xml">
-	
-	<link rel="canonical" href="http://ldehai.github.io/blog/2013/11/13/ios-app-database-version-control/">
+	<link rel="canonical" href="">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="http://l.tbcdn.cn/apps/top/x/sdk.js?appkey=21626528"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
-	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">
-    // Avoid conflict with ender.js.
-    jQuery.noConflict();
-</script>
-<!-- jQuery Form Plugin -->
-<script src="http://malsup.github.com/jquery.form.js"></script>
-<!-- jQuery Form Validation Plugin -->
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script> 
-<script src="/javascripts/google_form.js"></script>
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
 
 <body>
-	<div class="container">
-		<div class="left-col">
-			<div class="intrude-less">
-			<header id="header" class="inner"><div class="profilepic">
-	<script src="/javascripts/md5.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("ldehai@gmail.com") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
-		});
-	</script>
-</div>
-<hgroup>
-  <h1><a href="/">Andy Design</a></h1>
-</hgroup>
-
-<p class="subtitle"></p>
-<nav id="main-nav"><ul class="main-navigation">
-  <li >
-	  <a href="/mapcost">MapCost</a>
-	  <a href="/tripcost">TripCost</a>
-	  <a href="/shoebox">ShoeBox</a>
-	  <a href="/etimer">ETimer</a>
-  </li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/hao123">hao123</a></li>
+	<header id="header" class="inner"><h1><a href="/">Andy Design</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/hao123">hao123</a></li>
 </ul>
-
 </nav>
-<nav id="sub-nav">
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/hao123">hao123</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:ldehai.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
 	<div class="social">
 		
 		
@@ -81,8 +59,7 @@
 		
 		<a class="github" href="https://github.com/ldehai" title="GitHub">GitHub</a>
 		
-		
-		
+    
 		
 		
 		
@@ -90,24 +67,21 @@
 		
 		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
 		
+    
 	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:ldehai.github.io">
+	</form>
 </nav>
-<section>
-	<br/>
-  <h2>About Me</h2>
-  <p>Andy is an indie ios developer, the founder of AM Studio.</p>
-  <p>We are also available for consulting projects. If you have a great idea and need an app built, please contact us with <a href="mailto:ldehai@gmail.com">Mail</a> for more information!</p>
-</section></header>				
-			</div>
-		</div>	
-		<div class="mid-col">
-			
-				
-			
-			<div class="mid-col-container">
-				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<h1 class="title" itemprop="name">iOS APP Database Version Control</h1>
-	<div class="entry-content" itemprop="articleBody"><p>我喜欢在APP里用SQLite数据库，不过有个问题一直困扰着我，当我要加新功能，而原来的表结构已经不能满足要求时，需要修改表，或者新增表。那么老版本升级到新版本时就需要升级数据库，之前我都是判断新表有没有存在，不存在则创建。这样很容易搞乱掉，如果涉及到多个表，判断起来逻辑不清晰，把自己都搞晕了。</p>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">iOS APP Database Version Control</h2>
+	<div class="entry-content"><p>我喜欢在APP里用SQLite数据库，不过有个问题一直困扰着我，当我要加新功能，而原来的表结构已经不能满足要求时，需要修改表，或者新增表。那么老版本升级到新版本时就需要升级数据库，之前我都是判断新表有没有存在，不存在则创建。这样很容易搞乱掉，如果涉及到多个表，判断起来逻辑不清晰，把自己都搞晕了。</p>
 
 <p>在经历过几次折腾后，我发现数据库也需要用版本来控制起来，就像代码有版本一样。这样我只需要判断当前的数据库版本是多少，就知道要不要升级数据库了。假设之前版本是1.0，现在版本是1.1,代码很简单：</p>
 
@@ -132,22 +106,58 @@ if ([ver isEqualToString:@"1.0"])
 <p>当然自己还是要记录好每次升级的变动情况，备查。</p>
 </div>
 
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-13T21:17:00+08:00" pubdate data-updated="true">Nov 13<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/database/'>database</a>, <a class='category' href='/blog/categories/ios/'>iOS</a>, <a class='category' href='/blog/categories/version-control/'>version control</a>
+
+
+</div>
+	
+</div>
 </article>
 
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+
 <section id="comment">
-    <h1 class="title">Comments</h1>
+    <h2 class="title">Comments</h2>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </section>
 </div>
-			</div>
-			<footer id="footer" class="inner"><p>
-  Copyright &copy; 2013 - Andy.Liu -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
-Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
-			<script src="/javascripts/slash.js"></script>
+    Andy.Liu
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 (function($){
@@ -167,7 +177,7 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = '//go.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
@@ -188,8 +198,5 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
 
 
 
-
-		</div>
-	</div>
 </body>
 </html>
